@@ -13,6 +13,7 @@ var currentWorth = 0;
 var stocksAvailable = 100;
 var selectedStockID= 0;
 var eventString = "Death";
+var o;
 
 document.getElementById('event').value = eventString;
 document.getElementById('inc').value = incrementCounter;
